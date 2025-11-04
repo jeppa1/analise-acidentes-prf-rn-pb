@@ -36,20 +36,51 @@ A análise revelou padrões claros, com destaque para o impacto desproporcional 
 | :---: | :---: |
 | ![Gravidade Geral](img/graph6.png) | ![Gravidade (Apenas Motos)](img/graph7.png) |
 
-### 4. Ferramentas Utilizadas
+## 4. Ferramentas Utilizadas
 
 * **Linguagem:** Python
-* **Bibliotecas de Análise:** Pandas
+* **Bibliotecas de Análise:** Pandas, KaggleHub
 * **Bibliotecas de Visualização:** Matplotlib, Seaborn
 * **Ambiente:** Jupyter Notebook (para ETL) e Kaggle Notebooks (para Análise)
 
-### 5. Estrutura do Repositório
+## 5. Como Executar este Projeto
 
-* `/data/processed/`: Contém os 4 arquivos CSV consolidados e limpos, prontos para análise.
-* `/img/`: Contém as visualizações exportadas do notebook.
-* [cite_start]`analise-acidentes-prf-rn-pb.ipynb`: O notebook Jupyter final com a análise exploratória (o mesmo do Kaggle).
-* `acidentes_2025_2017.ipynb`: O notebook original usado para o processo de ETL (consolidação dos dados brutos).
+1.  **Clone este repositório:**
+    ```sh
+    git clone [https://github.com/seu-usuario/analise-acidentes-prf-rn-pb.git](https://github.com/seu-usuario/analise-acidentes-prf-rn-pb.git)
+    ```
+2.  **Baixe os Dados Processados:**
+    Os arquivos CSV consolidados (2017-2025) são maiores que o limite do GitHub e estão hospedados publicamente no Kaggle.
+    * **Faça o download dos 4 arquivos CSV** a partir deste Kaggle Dataset:
+      **[Link para seu Kaggle Dataset (o link que você me enviou)]**
+    * Crie uma pasta `data/processed/` dentro do repositório clonado.
+    * Mova os 4 arquivos CSV para dentro da pasta `data/processed/`.
 
-### 6. Fonte dos Dados
+3.  **Crie o Ambiente:**
+    ```sh
+    pip install -r requirements.txt
+    ```
+4.  **Execute a Análise:**
+    Abra o notebook `analise_acidentes_kaggle.ipynb` (ou o `acidentes_2025_2017.ipynb`) em um ambiente Jupyter.
 
-Os dados brutos foram obtidos no Portal de Dados Abertos da Polícia Rodoviária Federal (PRF), cobrindo o período de 2017 a 2025.
+## 6. Estrutura do Repositório
+
+```text
+/analise-acidentes-prf-rn-pb/
+│
+├── data/
+│   └── processed/
+│       └── (Esta pasta deve conter os 4 CSVs baixados do Kaggle)
+│
+├── img/
+│   └── (Imagens e gráficos usados no README)
+│
+├── analise_acidentes_kaggle.ipynb     (Notebook principal de Análise/EDA)
+├── acidentes_2025_2017.ipynb          (Notebook original de Processamento/ETL)
+├── requirements.txt                   (Bibliotecas Python necessárias)
+└── README.md                          (Esta documentação)
+```
+
+## 7. Fonte dos Dados
+
+Os dados brutos foram obtidos no Portal de Dados Abertos da Polícia Rodoviária Federal (PRF).
