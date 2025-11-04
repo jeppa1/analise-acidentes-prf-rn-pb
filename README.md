@@ -30,11 +30,11 @@ A análise revelou padrões claros, com destaque para o impacto desproporcional 
 
 | Evolução por Estado | Evolução por Capital |
 | :---: | :---: |
-| ![Evolução por Estado](img/image_aa716c.png) | ![Evolução por Capital](img/image_9f0880.png) |
+| ![Evolução por Estado](img/graph1.png) | ![Evolução por Capital](img/graph2.png) |
 
 | Gravidade Geral | Gravidade (Apenas Motos) |
 | :---: | :---: |
-| ![Gravidade Geral](img/COLE_O_NOME_DA_IMAGEM_DA_CELULA_19.png) | ![Gravidade (Apenas Motos)](img/COLE_O_NOME_DA_IMAGEM_DA_CELULA_21.png) |
+| ![Gravidade Geral](img/graph6.png) | ![Gravidade (Apenas Motos)](img/graph7.png) |
 
 ### 4. Ferramentas Utilizadas
 
